@@ -63,6 +63,10 @@ Now the waveform viewer will appear. Run the testbench by selecting Run All near
 
 ![Run All Figure](https://github.com/dahmanrb/cs552-testbench-tutorial/blob/master/figures/run_all.png)
 
+Vsim will ask you if you want to close the simulator, because it reached a `$finish` command. However, we want to continue to view the console output and the waveform, so you should select No:
+
+![Finish Vsim Figure](https://github.com/dahmanrb/cs552-testbench-tutorial/blob/master/figures/finish_vsim.png)
+
 Now take a look at the console. You'll notice there are a few errors being asserted, and you can verify this by looking at the waveform viewer to see which outputs are wrong. Try to find the cause of the issue in the `decoder24` module, then re-simulate.
 
 ## Further Practice Writing Testbenches
