@@ -7,4 +7,5 @@ We have provided a 2-to-4 line binary decoder (decoder24.v), but we are not sure
 ### Writing the testbench:
 Create a new file in this directory, called `tb_decoder24.v`. As with all other Verilog designs, we will start by creating a new module and giving it a name.
 
-
+## Further Practice Writing Testbenches
+Now that you know how to write a testbench from the provided example for the decoder, write a testbench for the module defined in `foo.v`. In the source file, there is a truth table that is supposed to  describe the operation of the module. The goal is to determine which inputs cause the module to fail.
